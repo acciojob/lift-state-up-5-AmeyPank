@@ -22,7 +22,7 @@ const ChildComponent = ({ isLoggedIn, setIsLoggedIn }) => {
   }
 
   // Render content after the user is logged in
-  return <div>Welcome, you are now logged in!</div>;
+  return <p>You are logged in!</p>;
 };
 
 export default ChildComponent;
