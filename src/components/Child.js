@@ -12,7 +12,9 @@ const ChildComponent = ({ isLoggedIn, setIsLoggedIn }) => {
     // Render the login form if the user is not logged in
     return (
       <form onSubmit={handleLoginFormSubmit}>
+        <label>Username</label>
         <input type="text" placeholder="Username" required />
+        <label>Password</label>
         <input type="password" placeholder="Password" required />
         <button type="submit">Log In</button>
       </form>
